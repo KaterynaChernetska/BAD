@@ -51,7 +51,7 @@ export const CheckTextPage = () => {
       </form>
       {uniqueSymbol && (
         <div className={css.containerUniq}>
-          <h3 className={css.headerUniq}>Uniq Symbol</h3>
+          <h3 className={css.headerUniq}>Unique Symbol</h3>
           <div className={css.letterContainerUniq}>
             <p className={css.letterUniq}>{uniqueSymbol}</p>
           </div>
